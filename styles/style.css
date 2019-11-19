@@ -70,19 +70,21 @@ body {
   }
 }
 
-.rm-LevelsList {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 30px;
-}
+@media screen and (max-width: 457px) {
+  .rm-LevelsList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+  }
 
-.rm-LevelCard {
-  width: 150px;
-  height: 150px;
-  background: #c4c4c4;
-  font-size: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+  .rm-LevelCard {
+    width: 150px;
+    height: 150px;
+    background: #c4c4c4;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
 }
